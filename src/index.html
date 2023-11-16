@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+<body class="loading">
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <div class="play-btn">
+          <button class="play-prev player-icon"></button>
+          <button class="play player-icon"></button>
+          <button class="play-next player-icon"></button>
+          <div class=" player-volume">
+            <div class="volume-icon"></div>
+            <input id="soundVolume" type="range" min="0" max="1" step="0.01">
+          </div>
+        </div>
+        <div class="player-name-time">
+          <div class="player-name"></div>
+          <div class="duration-timer">
+            <div id="timer" class="timer-header">0:00</div>      
+            <div id="duration"></div>
+          </div>
+        </div>
+        <div class="player-timeline">
+          <div class="player-progress">
+            <div id="progress"></div>
+          </div>
+        </div>
+      </div>      
+      <ul class="play-list"></ul>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name"/>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="settings">
+      <div class="setting-panel">
+        <aside id="settings-tabs">
+        <ul>
+          <li id="settings-tab-lang" data-tab="settings-lang" title="Language Settings" class="active"><button class="sett-lang-icon"></button></li>
+          <li id="settings-tab-image" data-tab="settings-image" title="Image Settings"><button class="sett-imag-icon"></button></li>
+          <li id="settings-tab-hidden" data-tab="settings-hidden" title="Hidden Settings"><button class="sett-hidden-icon"></button></li>
+        </ul>
+      </aside>
+      <article id="settings-lang" class="settings-content active">
+        <h3 class="setting-title-lang"></h3>
+        <div class="setting-info">
+          <div class="radio-lang">
+            <label for="russian">
+              <input id="russian" value="ru" name="sett-lang" type="radio" checked="checked"> 
+              <span class="radio-button"></span> Russian
+            </label>
+            <label for="english">
+              <input id="english" value="en" name="sett-lang" type="radio" checked="checked"> 
+              <span class="radio-button"></span> English
+            </label>
+          </div>
+        </div>
+      </article>
+      <article id="settings-image" class="settings-content">
+        <h3 class="setting-title-image"></h3>
+        <div class="setting-info">
+          <div class="radio-lang">
+            <label for="github">
+              <input id="github" value="github" name="sett-image" type="radio" checked="checked"> 
+              <span class="radio-button"></span> GitHub
+            </label>
+            <label for="unsplash">
+              <input id="unsplash" value="unsplash" name="sett-image" type="radio" checked="checked"> 
+              <span class="radio-button"></span> Unsplash
+            </label>
+            <label for="flickr">
+              <input id="flickr" value="flickr" name="sett-image" type="radio" checked="checked"> 
+              <span class="radio-button"></span> Flickr
+            </label>
+          </div>
+          <input id="setting-tag-input" type="text" placeholder="tag">
+        </div>
+      </article>
+      <article id="settings-hidden" class="settings-content">
+        <h3 class="setting-title-hidden"></h3>
+        <div class="setting-info">
+          <div class="toggle-switch">
+            <input id="time" class="switch" name="sett-hidden" type="checkbox"checked="checked">
+            <label for="time"></label>
+            <span class="switch-time"></span> 
+          </div>
+          <div class="toggle-switch">
+            <input id="date" class="switch" name="sett-hidden" type="checkbox"checked="checked">
+            <label for="date"></label>
+            <span class="switch-data"></span>
+          </div>
+          <div class="toggle-switch">
+            <input id="greeting-container" class="switch" name="sett-hidden" type="checkbox"checked="checked">
+            <label for="greeting-container"></label>
+            <span class="switch-greeting"></span>
+          </div>
+          <div class="toggle-switch">
+            <input id="quote-block" class="switch" name="sett-hidden" type="checkbox"checked="checked">
+            <label for="quote-block"></label>
+            <span class="switch-quote"></span>
+          </div>
+          <div class="toggle-switch">
+            <input id="player" class="switch" name="sett-hidden" type="checkbox"checked="checked">
+            <label for="player"></label>
+            <span class="switch-player"></span>
+          </div>
+          <div class="toggle-switch">
+            <input id="weather" class="switch" name="sett-hidden" type="checkbox"checked="checked">
+            <label for="weather"></label>
+            <span class="switch-weather"></span>
+          </div>
+          <div class="toggle-switch">
+            <input id="todo-block" class="switch" name="sett-hidden" type="checkbox"checked="checked">
+            <label for="todo-block"></label>
+            <span class="switch-todo"></span>
+          </div>
+        </div>
+      </article>
+      </div>
+      <button class="sett-btn setting-icon"></button>
+    </div>
+    <div class="quote-block">
+      <button class="change-quote"></button>
+      <div>
+        <div class="quote"></div>
+        <div class="author"></div>
+      </div>
+    </div>
+    <div class="todo-block">
+      <div class="todo-panel">
+        <h3 class="todo-title"></h3>
+        <div class="todo-items">
+          <p class="p-todo"></p>
+          <ul class="todo-list"></ul>
+        </div>
+        <input type="text" class="todo" >
+      </div>
+      <button class="todo-btn todo-icon"></button>
+    </div>
+    <div class="link">
+      <a href="https://github.com/kostik-omsk" class="link-github"></a>
+      <p>2023</p>
+      <a href="#"class="link-rs"></a>
+    </div>
+  </footer>
+</body>
+</html>

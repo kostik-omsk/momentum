@@ -1,0 +1,162 @@
+[
+  {
+    "en": {
+      "text": "It's easy to quit smoking. I've done it hundreds of times.",
+      "author": "Mark Twain"
+    },
+    "ru": {
+      "text": "Бросить курить легко. Я сам бросал раз сто.",
+      "author": "Марк Твен"
+    }
+  },
+  {
+    "en": {
+      "text": "Many of life's failures are people who did not realize how close they were to success when they gave up",
+      "author": "Thomas A.Edison"
+    },
+    "ru": {
+      "text": "Во многих неудачах люди не понимали, когда сдавались, насколько близки они были к успеху",
+      "author": "Томас А.Эдисон"
+    }
+  },
+  {
+    "en": {
+      "text": "When inspiration does not come to me, I go halfway to meet it. Sigmund Freud",
+      "author": "Sigmund Freud"
+    },
+    "ru": {
+      "text": "Когда вдохновение не приходит ко мне, я выхожу ему навстречу",
+      "author": "Зигмунд Фрейд"
+    }
+  },
+  {
+    "en": {
+      "text": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe",
+      "author": "Albert Einstein"
+    },
+    "ru": {
+      "text": "Две вещи бесконечны: вселенная и человеческая глупость; и я еще не уверен насчет вселенной",
+      "author": "Альберт Энштейн"
+    }
+  },
+  {
+    "en": {
+      "text": "Illusion is the first of all pleasures",
+      "author": "Oscar Wilde"
+    },
+    "ru": {
+      "text": "Иллюзия - высшее наслаждение",
+      "author": "Оскар Уайльд"
+    }
+  },
+  {
+    "en": {
+      "text": "Success doesn't come to you…you go to it",
+      "author": "Marva Collins"
+    },
+    "ru": {
+      "text": "Успех сам не приходит к Вам... Вы идете к нему",
+      "author": "Марва Коллинз"
+    }
+  },
+  {
+    "en": {
+      "text": "Music is the soul of language",
+      "author": "Max Handel"
+    },
+    "ru": {
+      "text": "Музыка - это душа языка",
+      "author": "Макс Гендель"
+    }
+  },
+  {
+    "en": {
+      "text": "Write code as if the person who ends up maintaining it is a violent psychopath who knows where you live",
+      "author": "Steve McConnell"
+    },
+    "ru": {
+      "text": "Пишите код так, как будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете",
+      "author": "Стив Макконнелл"
+    }
+  },
+  {
+    "en": {
+      "text": "The complexity of a program grows until it exceeds the capacity of the programmer to understand it",
+      "author": "Arthur Bloch, Murphy's Law"
+    },
+    "ru": {
+      "text": "Сложность программы растет до тех пор, пока не превысит способности программиста",
+      "author": "Артур Блох. Законы Мэрфи"
+    }
+  },
+  {
+    "en": {
+      "text": "Walking on water and developing software from a specification are easy if both are frozen",
+      "author": "Edward V Berard"
+    },
+    "ru": {
+      "text": "Ходить по воде и разрабатывать программы, следуя ТЗ, очень просто… если они заморожены",
+      "author": "И. Берард"
+    }
+  },
+  {
+    "en": {
+      "text": "A computer is a tool for automating the mundane, not for replacing thought",
+      "author": "Michael Carter"
+    },
+    "ru": {
+      "text": "Компьютер – это инструмент для автоматизации рутинной работы, но не для замены мыслительной",
+      "author": "Майкл Картер"
+    }
+  },
+  {
+    "en": {
+      "text": "Programming is like playing chess: it's not about knowing how to win, but about knowing how not to lose",
+      "author": "Robert Martins"
+    },
+    "ru": {
+      "text": "Программирование – это как игра в шахматы: важно не знать, как выиграть, а знать, как не проиграть",
+      "author": "Роберт Мартин"
+    }
+  },
+  {
+    "en": {
+      "text": "Programming is the composition of ideas, not the composition of symbols",
+      "author": "John Ousterhout"
+    },
+    "ru": {
+      "text": "Программирование – это композиция идей, а не композиция символов",
+      "author": "Джон Оукленд"
+    }
+  },
+  {
+    "en": {
+      "text": "A well-written program is one that works",
+      "author": "Bruce Eckel"
+    },
+    "ru": {
+      "text": "Хорошо написанная программа – это такая, которая работает",
+      "author": "Брюс Эккель"
+    }
+  },
+  {
+    "en": {
+      "text": "Programming is the art of creating virtual worlds in which we can live",
+      "author": "James Gosling"
+    },
+    "ru": {
+      "text": "Программирование – это искусство создания виртуальных миров, в которых можно жить",
+      "author": "Джеймс Гослинг"
+    }
+  },
+  {
+    "en": {
+      "text": "Programming is like composing music, except we use letters and numbers instead of notes",
+      "author": "Edsger W. Dijkstra"
+    },
+    "ru": {
+      "text": "Программирование – это как составление музыки, только вместо нот мы используем буквы и цифры",
+      "author": "Эдсгер Вагнер"
+    }
+  }
+]
